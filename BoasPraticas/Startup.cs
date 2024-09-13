@@ -80,9 +80,9 @@ namespace BoasPraticas
 
             app.UseEndpoints(endpoints =>
             {
-                //endpoints.MapControllers();
+                endpoints.MapControllers();
 
-                endpoints.MapControllerRoute(name: "Default", pattern: "{controller=Home}/{action=Index}/{id?}");
+                //endpoints.MapControllerRoute(name: "Default", pattern: "{controller=Home}/{action=Index}/{id?}");
             });
 
             app.UseSwagger();
